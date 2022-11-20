@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/online-sign-app/static/css/main.859ba28e.css",
+    "main.js": "/online-sign-app/static/js/main.c65b6ef4.js",
+    "static/js/787.c233f210.chunk.js": "/online-sign-app/static/js/787.c233f210.chunk.js",
+    "index.html": "/online-sign-app/index.html",
+    "main.859ba28e.css.map": "/online-sign-app/static/css/main.859ba28e.css.map",
+    "main.c65b6ef4.js.map": "/online-sign-app/static/js/main.c65b6ef4.js.map",
+    "787.c233f210.chunk.js.map": "/online-sign-app/static/js/787.c233f210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.859ba28e.css",
+    "static/js/main.c65b6ef4.js"
+  ]
+}
