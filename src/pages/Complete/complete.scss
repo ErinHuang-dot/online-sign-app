@@ -1,0 +1,38 @@
+@import '../../constants/variable';
+@import '../../constants/layout';
+@import '../../constants/allcomponents';
+
+.complete {
+
+  .container {
+    height: inherit;
+  }
+
+  &-content {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-text {
+    width: 20.25rem;
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    h2 {
+      margin-bottom: .5rem;
+      color: $primary-color;
+    }
+  
+    p {
+      margin-bottom: 2.5rem;
+    }
+
+    .next-link {
+      margin-bottom: .5rem;
+    }
+  }
+}

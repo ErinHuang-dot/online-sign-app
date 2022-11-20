@@ -1,0 +1,50 @@
+@import '../../constants/variable';
+@import '../../constants/layout';
+@import '../../constants/allcomponents';
+
+.steps-body {
+  padding-block: 2.5rem 2.25rem;
+  text-align: center;
+}
+
+.steps-title {
+  margin-bottom: 1.75rem;
+}
+
+.steps-element-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li:not(:last-child) {
+    margin-right: 12.5rem;
+  }
+}
+
+.steps-element {
+  text-align: center;
+
+  span {
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-size: $h4-font-size;
+    font-weight: 700;
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+  }
+
+  span, h4, p {
+    margin-bottom: .5rem;
+  }
+
+  &-img {
+    text-align: center;
+
+  }
+
+  img {
+    display: inline-block;
+    height: 160px;
+  }
+}

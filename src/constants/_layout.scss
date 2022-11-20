@@ -1,0 +1,57 @@
+@import './variable';
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+html, body {
+  color: $dark-grey;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+h5 {
+  font-size: $h5-font-size;
+}
+
+p {
+  font-size: $p-font-size;
+}
+
+// height
+.footer-else-h {
+  height: calc(100vh - 46px)
+}
+
+// display
+.hidden {
+  display: none;
+}
+
+.reveal {
+  display: block;
+}
+
+// google icon
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

@@ -1,0 +1,50 @@
+@import '../../constants/variable';
+@import '../../constants/layout';
+@import '../../constants/allcomponents';
+
+.header {
+  border-bottom: 1px solid $grey;
+
+  &-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2rem;
+
+    .material-symbols-outlined {
+      vertical-align: text-top ;
+    }
+  }
+
+  &-title {
+    color: $dark-grey;
+    font-size: $h2-font-size;
+    font-weight: 700;
+  }
+
+  &-subtitle {
+
+    &-s {
+      margin-right: 1.25rem;
+
+    }
+    &-e {
+      margin-left: .5rem;
+    }
+  }
+
+  .btn-l {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+  }
+
+  .btn-secondary {
+    margin-right: 1.5rem;
+  }
+}
+
+
+.btn-group {
+  display: flex;
+}
+
