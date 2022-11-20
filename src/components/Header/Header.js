@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import './header.scss';
 
 export default function Header() {
-  const url = process.env.PUBLIC_URL
+  const url = process.env.PUBLIC_URL;
   const location = useLocation();
   const { pathname } = location;
 
@@ -13,7 +13,7 @@ export default function Header() {
         <div className='header-body'>
           <div>
             { pathname === '/' ? 
-              <img src={url + './images/fast-sign-logo.png'} alt='logo'/> 
+              <img src={url + '/images/fast-sign-logo.png'} alt='logo'/> 
               : 
               <h5 className='header-subtitle'>
                 <span className="material-symbols-outlined md-24 header-subtitle-s">arrow_back</span>

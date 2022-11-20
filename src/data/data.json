@@ -4,51 +4,51 @@
       "id": "1",
       "title": "上傳檔案",
       "description": "選擇PDF檔或是IMG檔",
-      "image": "./images/ill-file-upload.svg"
+      "image": "/images/ill-file-upload.svg"
     },
     {
       "id": "2",
       "title": "加入簽名檔",
       "description": "手寫、輸入或是上傳簽名檔",
-      "image": "./images/ill-signing.svg"
+      "image": "/images/ill-signing.svg"
     },
     {
       "id": "3",
       "title": "下載與傳送",
       "description": "完成簽署可立即傳送檔案給對方",
-      "image": "./images/ill-sending-signer.svg"
+      "image": "/images/ill-sending-signer.svg"
     }
   ],
   "ProcessBar": [
     {
       "id": "1",
       "title": "成功上傳檔案",
-      "defaultImage": "./images/default-step1.png",
-      "currentImage": "./images/step1.png",
+      "defaultImage": "/images/default-step1.png",
+      "currentImage": "/images/step1.png",
       "isDone": true,
       "isCurrent": false
     },
     {
       "id": "2",
       "title": "加入簽名檔",
-      "defaultImage": "./images/default-step2.png",
-      "currentImage": "./images/step2.png",
+      "defaultImage": "/images/default-step2.png",
+      "currentImage": "/images/step2.png",
       "isDone": false,
       "isCurrent": true
     },
     {
       "id": "3",
       "title": "確認檔案",
-      "defaultImage": "./images/default-step3.png",
-      "currentImage": "./images/step3.png",
+      "defaultImage": "/images/default-step3.png",
+      "currentImage": "/images/step3.png",
       "isDone": false,
       "isCurrent": false
     },
     {
       "id": "4",
       "title": "下載檔案",
-      "defaultImage": "./images/default-step4.png",
-      "currentImage": "./images/step4.png",
+      "defaultImage": "/images/default-step4.png",
+      "currentImage": "/images/step4.png",
       "isDone": false,
       "isCurrent": false
     }

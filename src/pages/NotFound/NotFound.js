@@ -9,7 +9,7 @@ export default function NotFound() {
     <div className='error footer-else-h'>
       <div className='container'>
         <div className='error-content'>
-          <img src={url + './images/ill-wrong.svg'} alt=''/>
+          <img src={url + '/images/ill-wrong.svg'} alt=''/>
           <div className='error-text'>
             <h2>您的檔案無法上傳</h2>
             <p>請重新上傳檔案。確認檔案大小在10Mb以內，檔案格式為PDF、IMG。

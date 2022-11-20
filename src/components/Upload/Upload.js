@@ -21,7 +21,7 @@ export default function Upload() {
       <div className='container'>
         <div className='upload-body'>
           <div className='upload-content'>
-            <img src={url + './images/ill-add-file.svg'} alt='' className='add-file-img'/>
+            <img src={url + '/images/ill-add-file.svg'} alt='' className='add-file-img'/>
             <p>將檔案拖曳至這裡，或</p>
             <form id='upload-form'>
               <label className='btn btn-primary btn-upload' for='file-uploader'>選擇檔案</label>

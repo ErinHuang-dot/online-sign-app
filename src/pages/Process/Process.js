@@ -21,7 +21,7 @@ export default function Process() {
             { appData ? appData.map((item) => {
               return (
                 <li className="process-item" key={item.id}>
-                  {item.isDone ? <img src={url + './images/check.png'} alt=""/> 
+                  {item.isDone ? <img src={url + '/images/check.png'} alt=""/> 
                   : item.isCurrent ? <img src={url + item.currentImage} alt=""/>
                   : <img src={url + item.defaultImage} alt=""/>}
                   <p>{item.title}</p>
